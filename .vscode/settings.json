@@ -1,0 +1,64 @@
+{
+  "azureFunctions.deploySubpath": "api",
+  "azureFunctions.postDeployTask": "npm install",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "npm prune",
+  "editor.tabSize": 2,
+  "files.eol":"\n",
+  "explorer.confirmDragAndDrop": false,
+  "eslint.packageManager": "npm",
+  "eslint.run": "onSave",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+  ],
+  "eslint.workingDirectories": [
+      {
+          "directory": "./frontend",
+          "changeProcessCWD": true
+      },
+      {
+          "directory": "./api",
+          "changeProcessCWD": true
+      },
+      {
+          "directory": "./azure-init",
+          "changeProcessCWD": true
+      },
+      {
+        "directory": "./data-transform",
+        "changeProcessCWD": true
+    },
+      {
+          "directory": "./db-init",
+          "changeProcessCWD": true
+      },
+  ],
+  "html.format.wrapLineLength": 120,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "prettier.requireConfig": true,
+  "yaml.format.singleQuote": false,
+  "spectral.rulesetFile": ".spectral.yaml",
+  "python.linting.flake8Enabled": true,
+  "cSpell.words": [
+    "asyncapi",
+    "immovables",
+    "openapi",
+    "pgadmin",
+    "postgres",
+    "postgresql",
+    "upsert"
+  ],
+}
